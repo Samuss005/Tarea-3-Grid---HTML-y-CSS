@@ -1,0 +1,46 @@
+/* Estilo general */
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background-color:#e9d99b;
+}
+
+/* Encabezado */
+.encabezado{
+    text-align:center;
+    padding:20px;
+}
+
+/* Galería con GRID */
+.galeria{
+    width:80%;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px 200px 200px;
+    gap:25px;
+}
+
+/* Tarjetas */
+.tarjeta{
+    background-color:#eeeeee;
+    border-radius:15px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    font-size:20px;
+    box-shadow:0px 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Iconos */
+.icono{
+    font-size:50px;
+}
+
+/* Tarjeta grande del león */
+.leon{
+    grid-column:1 / 3;
+    grid-row:1 / 3;
+    background-color:#efc46d;
+}
